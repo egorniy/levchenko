@@ -6,6 +6,10 @@ then
 elif [ $number -ge 5 ]
 then
     printf "A lot of students"
+elif [ $number -eq 1 ]
+then
+    printf "Only one student"
 else
     printf "$number students"
+    
 fi

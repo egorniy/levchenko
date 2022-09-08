@@ -19,5 +19,9 @@ if (( "$age" > "25" ))
 then
 echo adult
 fi
-
+read bye
+if ["$bye" -eq ""]
+then
+echo "bye"
+fi
 done
